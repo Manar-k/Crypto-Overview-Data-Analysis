@@ -1,0 +1,283 @@
+{
+  "BTC": {
+    "chainId": "solana",
+    "dexId": "raydium",
+    "url": "https://dexscreener.com/solana/4s8dbxkb6myb4njdwbvtmvceord3pyiyqjapjyk7pz57",
+    "pairAddress": "4S8dBxKb6Myb4nJDwbvTMVcEoRd3PyiYQjApjYK7PZ57",
+    "labels": [
+      "CLMM"
+    ],
+    "baseToken": {
+      "address": "2reXGFzg4bTG1EdQMEMu3zHzmdLCoqUoQiCbchBXpSws",
+      "name": "Bitcoin",
+      "symbol": "BTC"
+    },
+    "quoteToken": {
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "priceNative": "64993.7472",
+    "priceUsd": "64993.74",
+    "txns": {
+      "m5": {
+        "buys": 0,
+        "sells": 0
+      },
+      "h1": {
+        "buys": 0,
+        "sells": 0
+      },
+      "h6": {
+        "buys": 1,
+        "sells": 1
+      },
+      "h24": {
+        "buys": 1,
+        "sells": 1
+      }
+    },
+    "volume": {
+      "h24": 3.99,
+      "h6": 3.99,
+      "h1": 0,
+      "m5": 0
+    },
+    "priceChange": {},
+    "liquidity": {
+      "usd": 6500661845.01,
+      "base": 100019,
+      "quote": 10.1301
+    },
+    "fdv": 1364868691551,
+    "marketCap": 1364868691551,
+    "pairCreatedAt": 1730700770000
+  },
+  "ETH": {
+    "chainId": "bsc",
+    "dexId": "pancakeswap",
+    "url": "https://dexscreener.com/bsc/0xd0e226f674bbf064f54ab47f42473ff80db98cba",
+    "pairAddress": "0xD0e226f674bBf064f54aB47F42473fF80DB98CBA",
+    "labels": [
+      "v3"
+    ],
+    "baseToken": {
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "name": "Ethereum Token",
+      "symbol": "ETH"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB"
+    },
+    "priceNative": "3.1700",
+    "priceUsd": "1954.84",
+    "txns": {
+      "m5": {
+        "buys": 9,
+        "sells": 34
+      },
+      "h1": {
+        "buys": 151,
+        "sells": 249
+      },
+      "h6": {
+        "buys": 834,
+        "sells": 1078
+      },
+      "h24": {
+        "buys": 2298,
+        "sells": 2406
+      }
+    },
+    "volume": {
+      "h24": 7161054.57,
+      "h6": 2788213.34,
+      "h1": 554242.77,
+      "m5": 43541.2
+    },
+    "priceChange": {
+      "m5": -0.42,
+      "h1": 0.28,
+      "h6": -0.7,
+      "h24": 1.52
+    },
+    "liquidity": {
+      "usd": 6952017.69,
+      "base": 2721.1848,
+      "quote": 2647.3536
+    },
+    "fdv": 1182650887,
+    "marketCap": 1182650887,
+    "pairCreatedAt": 1680536288000
+  },
+  "BNB": {
+    "chainId": "solana",
+    "dexId": "raydium",
+    "url": "https://dexscreener.com/solana/hwshdfgx16rebatal9krejjdyhjnno427eputrrwcdp5",
+    "pairAddress": "HwsHdfGx16REbATaL9KreJjdYhJnNo427EPutRrWCDp5",
+    "labels": [
+      "CLMM"
+    ],
+    "baseToken": {
+      "address": "4A4Ly3iL3NAp21iGwWfvZVLytKe6vRYjB8CfwPJ5CMG9",
+      "name": "BNB COIN",
+      "symbol": "BNB"
+    },
+    "quoteToken": {
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "priceNative": "767.2923",
+    "priceUsd": "767.29",
+    "txns": {
+      "m5": {
+        "buys": 0,
+        "sells": 0
+      },
+      "h1": {
+        "buys": 0,
+        "sells": 0
+      },
+      "h6": {
+        "buys": 0,
+        "sells": 0
+      },
+      "h24": {
+        "buys": 1,
+        "sells": 1
+      }
+    },
+    "volume": {
+      "h24": 2.8,
+      "h6": 0,
+      "h1": 0,
+      "m5": 0
+    },
+    "priceChange": {},
+    "liquidity": {
+      "usd": 102790939,
+      "base": 133965,
+      "quote": 0.962
+    },
+    "fdv": 1534584659,
+    "marketCap": 1534584659,
+    "pairCreatedAt": 1754552911000
+  },
+  "SOL": {
+    "chainId": "polkadot",
+    "dexId": "hydration",
+    "url": "https://dexscreener.com/polkadot/0x6d6f646c6f6d6e69706f6f6c0000000000000000000000000000000000000000-1-1000752",
+    "pairAddress": "0x6d6f646c6f6d6e69706f6f6c0000000000000000000000000000000000000000-1-1000752",
+    "baseToken": {
+      "address": "1000752",
+      "name": "Solana (Moonbeam Wormhole)",
+      "symbol": "SOL"
+    },
+    "quoteToken": {
+      "address": "1",
+      "name": "H2O",
+      "symbol": "H2O"
+    },
+    "priceNative": "10.6935",
+    "priceUsd": "84.13",
+    "txns": {
+      "m5": {
+        "buys": 0,
+        "sells": 3
+      },
+      "h1": {
+        "buys": 6,
+        "sells": 15
+      },
+      "h6": {
+        "buys": 24,
+        "sells": 59
+      },
+      "h24": {
+        "buys": 104,
+        "sells": 174
+      }
+    },
+    "volume": {
+      "h24": 70795.13,
+      "h6": 22480.58,
+      "h1": 4557.1,
+      "m5": 932.26
+    },
+    "priceChange": {
+      "m5": -0.35,
+      "h1": 0.34,
+      "h6": -0.41,
+      "h24": 4.22
+    },
+    "liquidity": {
+      "usd": 17893677.3,
+      "base": 8375.2616,
+      "quote": 2184642
+    },
+    "fdv": 848158,
+    "marketCap": 848158
+  },
+  "XRP": {
+    "chainId": "bsc",
+    "dexId": "pancakeswap",
+    "url": "https://dexscreener.com/bsc/0xd15b00e81f98a7db25f1dc1ba6e983a4316c4cac",
+    "pairAddress": "0xd15B00E81F98A7DB25f1dC1BA6E983a4316c4CaC",
+    "labels": [
+      "v3"
+    ],
+    "baseToken": {
+      "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+      "name": "XRP Token",
+      "symbol": "XRP"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB"
+    },
+    "priceNative": "0.002313",
+    "priceUsd": "1.42",
+    "txns": {
+      "m5": {
+        "buys": 3,
+        "sells": 3
+      },
+      "h1": {
+        "buys": 26,
+        "sells": 47
+      },
+      "h6": {
+        "buys": 216,
+        "sells": 236
+      },
+      "h24": {
+        "buys": 489,
+        "sells": 590
+      }
+    },
+    "volume": {
+      "h24": 276840.04,
+      "h6": 68086.94,
+      "h1": 11048.16,
+      "m5": 145.66
+    },
+    "priceChange": {
+      "m5": -0.14,
+      "h1": 0.95,
+      "h6": -0.04,
+      "h24": 2.49
+    },
+    "liquidity": {
+      "usd": 1273050.88,
+      "base": 586156,
+      "quote": 706.2568
+    },
+    "fdv": 465183902,
+    "marketCap": 465183902,
+    "pairCreatedAt": 1680357560000
+  }
+}
