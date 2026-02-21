@@ -36,14 +36,19 @@ Since DexScreener returns data for multiple trading pairs per coin, the script f
 | **DexScreener API** | Source of live cryptocurrency data |
 | **Google Apps Script** | Fetches and stores data every 5 minutes |
 | **Looker Studio** | Visualizes data in an interactive dashboard |
+| **Figma** | Design the dashboard |
 
 The dashboard was designed with a dark theme. Each chart was assigned a specific purpose, the table provides a full data overview, the bar charts enable quick comparison of volume and daily performance, and the line chart reveals how prices behave across different time intervals. Conditional formatting was applied to the Change 24h % column so that positive values appear in green and negative values in red, making the market sentiment immediately readable at a glance.
 
 # Dashboard Screenshots 
-Embed images of your final dashboard directly in the README. 
+<div align="center">
+<img src="Screenshots/CRYPTO_OVERVIEW_-_Manar_Khamees (1)_page-0001.jpg" width="900" alt="Crypto Dashboard"/> 
+</div>
 
 # Design Screenshots 
-Embed wireframes/mockups if you used Ul/UX tools. 
+<div align="center">
+<img src="Screenshots/Crypto Dashboard.png" width="900" alt="Crypto Dashboard Figma"/> 
+</div>
 
 # Key Insights 
 Bitcoin remains the leader with the highest market cap and liquidity, solidifying its role as the most stable and trusted asset. Ethereum closely follows, making both coins the safest choices for large-volume trades with minimal price impact.
@@ -65,11 +70,10 @@ Coins with lower liquidity are prone to sharp price swings. Stakeholders should 
 
 # Assumptions & Limitations 
 #### Assumptions
-The analysis relies on continuous access to Google Apps Script and the DexScreener API. If either goes down, data gaps may appear in the historical records.
+The analysis relies on continuous access to Google Apps Script and the DexScreener API. If either goes down, the dashboard will display outdated data until the connection is restored, as the script overwrites the existing data on each fetch cycle.
 
-The data fetching every 5 minutes is assumed to capture meaningful price movements. However, crypto prices can change rapidly, so extreme spikes or crashes may occur between fetches and go unrecorded.
-
+The data fetching every 5 minutes is assumed to capture meaningful price movements. However, crypto prices can change rapidly, so extreme spikes or crashes may occur and recover between two fetch cycles without being recorded.
 #### Limitations
-DexScreener tracks only decentralized exchanges, missing out on significant trading volume from centralized exchanges like Binance or Kraken. This can lead to discrepancies in reported prices and volumes.
+DexScreener only tracks decentralized exchanges, so it misses significant trading volume from major centralized platforms like Binance and Kraken. This can cause discrepancies in the prices and volumes displayed compared to what users see on those platforms.
 
-The dashboard starts building its historical record only from when the script was activated, limiting long-term trend analysis.
+Because the script overwrites data with each fetch, it doesn’t maintain a historical record, limiting long-term trend analysis or performance comparisons.
