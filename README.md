@@ -7,7 +7,7 @@ Cryptocurrency Market, It is one of the fastest-moving financial markets in the 
 The Crypto Overview Dashboard is built to answer several key questions that any crypto investor or analyst would ask on a daily basis. It tells you which coins are currently gaining or losing value by showing price changes across four different time intervals — 5 minutes, 1 hour, 6 hours, and 24 hours. It also shows you where the trading activity is concentrated by comparing volume across the five major coins. 
 Beyond individual prices, the dashboard reveals which coins have the strongest market presence through their liquidity and market cap figures, and it makes the overall market sentiment immediately visible through the green🟢 and red🔴 color coding on every chart.
 # Data Source 
-I got the data from DEX Screener API. DEX Screener is a real-time data platform for cryptocurrency traders. It tracks token prices, trading volume, and onchain trades across major networks including Ethereum, BSC, Polygon, Avalanche, and others.
+I got the data from DEX Screener API. DEX Screener (<a href="https://dexscreener.com/" target="_blank">DEX Screener Website🪙</a>) is a real-time data platform for cryptocurrency traders. It tracks token prices, trading volume, and onchain trades across major networks including Ethereum, BSC, Polygon, Avalanche, and others.
 The data contains:
 | Column | Description |
 |---|---|
